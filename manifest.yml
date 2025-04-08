@@ -1,0 +1,14 @@
+lzc-sdk-version: 0.1
+name: FocusTide
+package: cloud.lazycat.app.focustide
+version: 1.7.0
+description: 番茄钟计时器应用程序
+license: http://www.apache.org/licenses/
+homepage: https://github.com/Hanziness/FocusTide
+author: Hanziness
+application:
+  subdomain: focustide
+  routes:
+    - /=file:///lzcapp/pkg/content/
+  public_path:
+    - /
